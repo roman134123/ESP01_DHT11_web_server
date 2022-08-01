@@ -15,8 +15,8 @@
 #include "Adafruit_Sensor.h"                            // Подключение библиотеки Adafruit_Sensor
 #include "DHT.h"                                        // Подключение библиотеки DHT
 
-const char* ssid = "DukeHome";               // Название Вашей Wi-Fi сети
-const char* password = "gaurangagauranga";          // Пароль Вашей Wi-Fi сети
+const char* ssid = "Название Вашей Wi-Fi сети";         // Название Вашей Wi-Fi сети
+const char* password = "Пароль Вашей Wi-Fi сети";       // Пароль Вашей Wi-Fi сети
 WiFiServer server(80);                                  // Номер порта Web-сервера
 #define DHTPIN 2                                        // Пин, к которому подключен DHT11
 #define DHTTYPE DHT11                                   
